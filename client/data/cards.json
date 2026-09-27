@@ -1,0 +1,3902 @@
+{
+  "version": 2,
+  "comment": "卡牌信息数据库：rarity 填 N/R/SR/SSR(暂无 UR)；character 为 characters 的 key；assetRoot 指向素材根目录；works.*.currencyName 抽卡货币名；works.*.price 单抽价格(默认5)；decay 分解回收光玉；exchange.rate 积分兑换光玉倍率",
+  "decay": {
+    "SSR": 50,
+    "SR": 20,
+    "R": 5,
+    "N": 1
+  },
+  "exchange": {
+    "rate": 1
+  },
+  "packs": [
+    {
+      "id": "ab",
+      "name": "Angel Beats!",
+      "com": "",
+      "assetRoot": "cards/ab",
+      "currencyName": "光玉",
+      "price": 5,
+      "works": {
+        "ab": {
+          "name": "Angel Beats!",
+          "currencyName": "光玉",
+          "price": 5,
+          "aliases": [
+            "ab",
+            "angelbeats",
+            "angel",
+            "abow",
+            "天使",
+            "天使学院",
+            "死后世界"
+          ]
+        }
+      },
+      "characters": {
+        "yuri": {
+          "name": "由理",
+          "en": "Yuri",
+          "work": "ab",
+          "aliases": [
+            "由理",
+            "Yuri",
+            "yuri"
+          ]
+        },
+        "kanade": {
+          "name": "奏",
+          "en": "Kanade",
+          "work": "ab",
+          "aliases": [
+            "奏",
+            "Kanade",
+            "kanade"
+          ]
+        },
+        "otonashi": {
+          "name": "音无",
+          "en": "Otonashi",
+          "work": "ab",
+          "aliases": [
+            "音无",
+            "Otonashi",
+            "otonashi"
+          ]
+        },
+        "yui": {
+          "name": "由依",
+          "en": "Yui",
+          "work": "ab",
+          "aliases": [
+            "由依",
+            "Yui",
+            "yui"
+          ]
+        },
+        "hinata": {
+          "name": "日向",
+          "en": "Hinata",
+          "work": "ab",
+          "aliases": [
+            "日向",
+            "Hinata",
+            "hinata"
+          ]
+        },
+        "iwasawa": {
+          "name": "岩泽",
+          "en": "Iwasawa",
+          "work": "ab",
+          "aliases": [
+            "岩泽",
+            "Iwasawa",
+            "iwasawa"
+          ]
+        },
+        "hisako": {
+          "name": "久子",
+          "en": "Hisako",
+          "work": "ab",
+          "aliases": [
+            "久子",
+            "Hisako",
+            "hisako"
+          ]
+        },
+        "sekine": {
+          "name": "关根",
+          "en": "Sekine",
+          "work": "ab",
+          "aliases": [
+            "关根",
+            "Sekine",
+            "sekine"
+          ]
+        },
+        "irie": {
+          "name": "入江",
+          "en": "Irie",
+          "work": "ab",
+          "aliases": [
+            "入江",
+            "Irie",
+            "irie"
+          ]
+        },
+        "shiina": {
+          "name": "椎名",
+          "en": "Shiina",
+          "work": "ab",
+          "aliases": [
+            "椎名",
+            "Shiina",
+            "shiina"
+          ]
+        },
+        "yusa": {
+          "name": "游佐",
+          "en": "Yusa",
+          "work": "ab",
+          "aliases": [
+            "游佐",
+            "Yusa",
+            "yusa"
+          ]
+        },
+        "naoi": {
+          "name": "直井",
+          "en": "Naoi",
+          "work": "ab",
+          "aliases": [
+            "直井",
+            "Naoi",
+            "naoi"
+          ]
+        },
+        "noda": {
+          "name": "野田",
+          "en": "Noda",
+          "work": "ab",
+          "aliases": [
+            "野田",
+            "Noda",
+            "noda"
+          ]
+        },
+        "ooyama": {
+          "name": "大山",
+          "en": "Ooyama",
+          "work": "ab",
+          "aliases": [
+            "大山",
+            "Ooyama",
+            "ooyama"
+          ]
+        },
+        "takeyama": {
+          "name": "竹山",
+          "en": "Takeyama",
+          "work": "ab",
+          "aliases": [
+            "竹山",
+            "Takeyama",
+            "takeyama"
+          ]
+        },
+        "takamatsu": {
+          "name": "高松",
+          "en": "Takamatsu",
+          "work": "ab",
+          "aliases": [
+            "高松",
+            "Takamatsu",
+            "takamatsu"
+          ]
+        },
+        "matsushita": {
+          "name": "松下",
+          "en": "Matsushita",
+          "work": "ab",
+          "aliases": [
+            "松下",
+            "Matsushita",
+            "matsushita"
+          ]
+        },
+        "fujimaki": {
+          "name": "藤卷",
+          "en": "Fujimaki",
+          "work": "ab",
+          "aliases": [
+            "藤卷",
+            "Fujimaki",
+            "fujimaki"
+          ]
+        },
+        "tk": {
+          "name": "TK",
+          "en": "TK",
+          "work": "ab",
+          "aliases": [
+            "TK",
+            "TK",
+            "tk"
+          ]
+        },
+        "chaa": {
+          "name": "Chaa",
+          "en": "Chaa",
+          "work": "ab",
+          "aliases": [
+            "Chaa",
+            "Chaa",
+            "chaa"
+          ]
+        }
+      },
+      "cards": {
+        "100": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "101": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "102": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "103": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "104": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "105": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "106": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "107": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "108": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "109": {
+          "character": "hisako",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "110": {
+          "character": "hisako",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "111": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "112": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "113": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "114": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "115": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "116": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "117": {
+          "character": "sekine",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "118": {
+          "character": "sekine",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "119": {
+          "character": "sekine",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "120": {
+          "character": "sekine",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "121": {
+          "character": "sekine",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "122": {
+          "character": "sekine",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "123": {
+          "character": "sekine",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "124": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "125": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "126": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "127": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "128": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "129": {
+          "character": "irie",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "130": {
+          "character": "irie",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "131": {
+          "character": "irie",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "132": {
+          "character": "irie",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "133": {
+          "character": "irie",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "134": {
+          "character": "irie",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "135": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "136": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "137": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "138": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "139": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "140": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "141": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "142": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "143": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "144": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "145": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "146": {
+          "character": "shiina",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "147": {
+          "character": "shiina",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "148": {
+          "character": "shiina",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "149": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "150": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "151": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "152": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "153": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "154": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "155": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "156": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "157": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "158": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "159": {
+          "character": "yusa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "160": {
+          "character": "yusa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "161": {
+          "character": "yusa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "162": {
+          "character": "ooyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "163": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "164": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "165": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "166": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "167": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "168": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "169": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "170": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "171": {
+          "character": "ooyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "172": {
+          "character": "ooyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "173": {
+          "character": "ooyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "174": {
+          "character": "noda",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "175": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "176": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "177": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "178": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "179": {
+          "character": "noda",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "180": {
+          "character": "noda",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "181": {
+          "character": "noda",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "182": {
+          "character": "noda",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "183": {
+          "character": "noda",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "184": {
+          "character": "noda",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "185": {
+          "character": "fujimaki",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "186": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "187": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "188": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "189": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "190": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "191": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "192": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "193": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "194": {
+          "character": "fujimaki",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "195": {
+          "character": "fujimaki",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "196": {
+          "character": "fujimaki",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "197": {
+          "character": "takamatsu",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "198": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "199": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "200": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "201": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "202": {
+          "character": "takamatsu",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "203": {
+          "character": "takamatsu",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "204": {
+          "character": "takamatsu",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "205": {
+          "character": "takamatsu",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "206": {
+          "character": "takamatsu",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "207": {
+          "character": "takamatsu",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "208": {
+          "character": "takamatsu",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "209": {
+          "character": "takamatsu",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "210": {
+          "character": "matsushita",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "211": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "212": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "213": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "214": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "215": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "216": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "217": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "218": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "219": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "220": {
+          "character": "matsushita",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "221": {
+          "character": "matsushita",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "222": {
+          "character": "matsushita",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "223": {
+          "character": "tk",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "224": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "225": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "226": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "227": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "228": {
+          "character": "tk",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "229": {
+          "character": "tk",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "230": {
+          "character": "tk",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "231": {
+          "character": "tk",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "232": {
+          "character": "tk",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "233": {
+          "character": "tk",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "234": {
+          "character": "takeyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "235": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "236": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "237": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "238": {
+          "character": "takeyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "239": {
+          "character": "takeyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "240": {
+          "character": "takeyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "241": {
+          "character": "takeyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "242": {
+          "character": "takeyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "243": {
+          "character": "takeyama",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "244": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "245": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "246": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "247": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "248": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "249": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "250": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "251": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "252": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "253": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "254": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "255": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "256": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "257": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "258": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "259": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "260": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "261": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "262": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "263": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "264": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "265": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "266": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "267": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "268": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "269": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "270": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "271": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "272": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "273": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "274": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "275": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "276": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "277": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "278": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "279": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "280": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "281": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "282": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "283": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "284": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "285": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "286": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "287": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "288": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "289": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "290": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "291": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "292": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "293": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "294": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "295": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "296": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "297": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "298": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "299": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "300": {
+          "character": "otonashi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "301": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "302": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "303": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "304": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "305": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "306": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "307": {
+          "character": "takeyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "308": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "309": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "310": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "311": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "312": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "313": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "314": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "315": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "316": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "317": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "318": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "319": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "320": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "321": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "322": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "323": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "324": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "325": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "326": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "327": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "328": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "329": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "330": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "331": {
+          "character": "irie",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "332": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "333": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "334": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "335": {
+          "character": "hinata",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "336": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "337": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "338": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "339": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "340": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "341": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "342": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "343": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "344": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "345": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "346": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "347": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "348": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "349": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "350": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "351": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "352": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "353": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "354": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "355": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "356": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "357": {
+          "character": "sekine",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "358": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "359": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "360": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "361": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "362": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "363": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "364": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "365": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "366": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "367": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "368": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "369": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "370": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "371": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "372": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "373": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "374": {
+          "character": "shiina",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "375": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "376": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "377": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "378": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "379": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "380": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "381": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "382": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "383": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "384": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "385": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "386": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "387": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "388": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "389": {
+          "character": "chaa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "390": {
+          "character": "chaa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "391": {
+          "character": "chaa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "392": {
+          "character": "chaa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "393": {
+          "character": "chaa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "394": {
+          "character": "chaa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "395": {
+          "character": "chaa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "396": {
+          "character": "chaa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "397": {
+          "character": "chaa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "398": {
+          "character": "chaa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "399": {
+          "character": "chaa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "400": {
+          "character": "chaa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "401": {
+          "character": "chaa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "402": {
+          "character": "chaa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "403": {
+          "character": "chaa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "404": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "405": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "406": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "407": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "408": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "409": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "410": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "411": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "412": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "413": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "414": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "415": {
+          "character": "irie",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "416": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "417": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "418": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "419": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "420": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "421": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "422": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "423": {
+          "character": "iwasawa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "424": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "425": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "426": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "427": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "428": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "429": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "430": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "431": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "432": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "433": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "434": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "435": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "436": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "437": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "438": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "439": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "440": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "441": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "442": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "443": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "444": {
+          "character": "matsushita",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "445": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "446": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "447": {
+          "character": "tk",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "448": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "449": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "450": {
+          "character": "yusa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "451": {
+          "character": "fujimaki",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "452": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "453": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "454": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "455": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "456": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "457": {
+          "character": "takamatsu",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "458": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "459": {
+          "character": "takeyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "460": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "461": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "462": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "463": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "464": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "465": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "466": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "467": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "468": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "469": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "470": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "471": {
+          "character": "matsushita",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "472": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "473": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "474": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "475": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "476": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "477": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "478": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "479": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "480": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "481": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "482": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "483": {
+          "character": "noda",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "484": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "485": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "486": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "487": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "488": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "489": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "490": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "491": {
+          "character": "takamatsu",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "492": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "493": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "494": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "495": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "496": {
+          "character": "tk",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "497": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "498": {
+          "character": "hinata",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "499": {
+          "character": "ooyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "500": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "501": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "502": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "503": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "504": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "505": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "506": {
+          "character": "noda",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "507": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "508": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "509": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "510": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "511": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "512": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "513": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "514": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "515": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "516": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "517": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "518": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "519": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "520": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "521": {
+          "character": "noda",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "522": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "523": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "524": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "525": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "526": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "527": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "528": {
+          "character": "takeyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "529": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "530": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "531": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "532": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "533": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "534": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "535": {
+          "character": "fujimaki",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "536": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "537": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "538": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "539": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "540": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "541": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "542": {
+          "character": "matsushita",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "543": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "544": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "545": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "546": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "547": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "548": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "549": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "550": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "551": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "552": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "553": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "554": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "555": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "556": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "557": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "558": {
+          "character": "ooyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "559": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "560": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "561": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "562": {
+          "character": "hisako",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "563": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "564": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "565": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "566": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "567": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "568": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "569": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "570": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "571": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "572": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "573": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "574": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "575": {
+          "character": "matsushita",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "576": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "577": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "578": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "579": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "580": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "581": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "582": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "583": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "584": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "585": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "586": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "587": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "588": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "589": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "590": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "591": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "592": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "593": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "594": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "595": {
+          "character": "ooyama",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "596": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "597": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "598": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "599": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "600": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "601": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "602": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "603": {
+          "character": "takamatsu",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "604": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "605": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "606": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "607": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "608": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "609": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "610": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "611": {
+          "character": "matsushita",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "612": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "613": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "614": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "615": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "616": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "617": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "618": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "619": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "620": {
+          "character": "fujimaki",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "621": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "622": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "623": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "624": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "625": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "626": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "627": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "628": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "629": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "630": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "631": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "632": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "633": {
+          "character": "tk",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "634": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "635": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "636": {
+          "character": "hinata",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "637": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "638": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "639": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "640": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "641": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "642": {
+          "character": "ooyama",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "643": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "644": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "645": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "646": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "647": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "648": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "649": {
+          "character": "noda",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "650": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "651": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "652": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "653": {
+          "character": "takamatsu",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "654": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "655": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "656": {
+          "character": "takeyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "657": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "658": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "659": {
+          "character": "tk",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "660": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "661": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "662": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "663": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "664": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "665": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "666": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "667": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "668": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "669": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "670": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "671": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "672": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "673": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "674": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "675": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "676": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "677": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "678": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "679": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "680": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "681": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "682": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "683": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "684": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "685": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "686": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "687": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "688": {
+          "character": "fujimaki",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "689": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "690": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "691": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "692": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "693": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "694": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "695": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "696": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "697": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "698": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "699": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "700": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "701": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "702": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "703": {
+          "character": "takamatsu",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "704": {
+          "character": "shiina",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "705": {
+          "character": "yusa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "706": {
+          "character": "tk",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "707": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "708": {
+          "character": "ooyama",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "709": {
+          "character": "matsushita",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "710": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "711": {
+          "character": "sekine",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "712": {
+          "character": "irie",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "713": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "714": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "715": {
+          "character": "hisako",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "716": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "717": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "718": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "719": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "720": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "721": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "722": {
+          "character": "sekine",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "723": {
+          "character": "irie",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "724": {
+          "character": "noda",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "725": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "726": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "727": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "728": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "729": {
+          "character": "shiina",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "730": {
+          "character": "yusa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "731": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "001": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "002": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "003": {
+          "character": "yuri",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "004": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "005": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "006": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "007": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "008": {
+          "character": "yuri",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "009": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "010": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "011": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "012": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "013": {
+          "character": "yuri",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "014": {
+          "character": "yuri",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "015": {
+          "character": "yuri",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "016": {
+          "character": "yuri",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "017": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "018": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "019": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "020": {
+          "character": "kanade",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "021": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "022": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "023": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "024": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "025": {
+          "character": "kanade",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "026": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "027": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "028": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "029": {
+          "character": "kanade",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "030": {
+          "character": "kanade",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "031": {
+          "character": "kanade",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "032": {
+          "character": "kanade",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "033": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "034": {
+          "character": "otonashi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "035": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "036": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "037": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "038": {
+          "character": "otonashi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "039": {
+          "character": "otonashi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "040": {
+          "character": "otonashi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "041": {
+          "character": "otonashi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "042": {
+          "character": "otonashi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "043": {
+          "character": "otonashi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "044": {
+          "character": "otonashi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "045": {
+          "character": "otonashi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "046": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "047": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "048": {
+          "character": "yui",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "049": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "050": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "051": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "052": {
+          "character": "yui",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "053": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "054": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "055": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "056": {
+          "character": "yui",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "057": {
+          "character": "yui",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "058": {
+          "character": "yui",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "059": {
+          "character": "yui",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "060": {
+          "character": "hinata",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "061": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "062": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "063": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "064": {
+          "character": "hinata",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "065": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "066": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "067": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "068": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "069": {
+          "character": "hinata",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "070": {
+          "character": "hinata",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "071": {
+          "character": "hinata",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "072": {
+          "character": "hinata",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "073": {
+          "character": "naoi",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "074": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "075": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "076": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "077": {
+          "character": "naoi",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "078": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "079": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "080": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "081": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "082": {
+          "character": "naoi",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "083": {
+          "character": "naoi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "084": {
+          "character": "naoi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "085": {
+          "character": "naoi",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "086": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "087": {
+          "character": "iwasawa",
+          "rarity": "SSR",
+          "work": "ab"
+        },
+        "088": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "089": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "090": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "091": {
+          "character": "iwasawa",
+          "rarity": "SR",
+          "work": "ab"
+        },
+        "092": {
+          "character": "iwasawa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "093": {
+          "character": "iwasawa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "094": {
+          "character": "iwasawa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "095": {
+          "character": "iwasawa",
+          "rarity": "R",
+          "work": "ab"
+        },
+        "096": {
+          "character": "iwasawa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "097": {
+          "character": "iwasawa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "098": {
+          "character": "iwasawa",
+          "rarity": "N",
+          "work": "ab"
+        },
+        "099": {
+          "character": "hisako",
+          "rarity": "SSR",
+          "work": "ab"
+        }
+      },
+      "rates": {
+        "work": {},
+        "char": {}
+      }
+    }
+  ]
+}

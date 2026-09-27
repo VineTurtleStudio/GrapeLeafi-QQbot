@@ -1,0 +1,1307 @@
+{
+  "settings": {
+    "groupReplyMode": "keyword",
+    "replyGroups": [],
+    "blockGroups": [],
+    "quietAllowGroups": [],
+    "gates": {},
+    "riskgate": {},
+    "groupEnabled": {
+      "cat:生日": [],
+      "cat:互动": [],
+      "cat:联网": [],
+      "cmd:随机二次元": [],
+      "cat:文娱": []
+    },
+    "defaultOff": [
+      "生日",
+      "文娱",
+      "互动",
+      "联网"
+    ],
+    "events": {
+      "welcome": {
+        "enabledGroups": [],
+        "text": "欢迎新成员～在群里说句话认识一下吧！"
+      },
+      "leave": {
+        "enabledGroups": [],
+        "text": "有一位伙伴离开了，愿 TA 前程似锦～"
+      },
+      "poke": {
+        "enabledGroups": [],
+        "replies": [
+          "好痒啊",
+          "戳我干嘛～",
+          "再戳我要收费了哦",
+          "干嘛呀，咩咩~"
+        ]
+      }
+    }
+  },
+  "builtins": {
+    "ping": {},
+    "help": {},
+    "运势": {},
+    "抽签": {},
+    "钓鱼": {},
+    "鱼塘": {},
+    "卖鱼": {},
+    "签到": {},
+    "等级": {},
+    "面板": {},
+    "me": {},
+    "info": {},
+    "groupinfo": {},
+    "头像": {},
+    "生日": {},
+    "开启": {},
+    "关闭": {},
+    "一言": {},
+    "诗词": {},
+    "冷知识": {},
+    "塔罗": {},
+    "今日人品": {},
+    "今日人设": {},
+    "土味情话": {},
+    "彩虹屁": {},
+    "舔狗日记": {},
+    "毒鸡汤": {},
+    "时间": {},
+    "猜数字": {},
+    "疑狂星期四": {},
+    "敲木鱼": {},
+    "功德榜": {},
+    "抽群友": {},
+    "轮盘": {},
+    "天气": {},
+    "热搜": {},
+    "群名片": {},
+    "群名": {},
+    "mute": {},
+    "unmute": {},
+    "kick": {},
+    "banall": {},
+    "unbanall": {},
+    "recall": {},
+    "grant": {},
+    "revoke": {},
+    "perms": {}
+  },
+  "presets": {
+    "commands": [],
+    "keywords": []
+  },
+  "ai": {
+    "systemPrompt": "你是「葡叶酱」，一个住在QQ里的机器人。回答要简短、生动、有温度，用中文，一般不超过100字。除非被要求，否则不要用markdown。",
+    "offlineReply": "葡叶酱还没连上AI大脑，等主人配置好 API key 就能陪你聊天啦。",
+    "errorReply": "啊哦，AI 走神了，稍后再试一次吧。"
+  },
+  "lottery": {},
+  "anime": {
+    "timeoutSec": 15,
+    "deletedIds": [],
+    "sources": [
+      {
+        "id": "xjh-acg",
+        "name": "岁月小筑",
+        "url": "https://img.xjh.me/random_img.php?return=json&type=bg&ctype=acg",
+        "mode": "json",
+        "imageField": "img",
+        "enabled": true,
+        "sfw": true,
+        "note": "ACG 分类；2026-09-25 实测可用"
+      },
+      {
+        "id": "horosama-anime",
+        "name": "赫萝",
+        "url": "https://api.horosama.com/random.php?name=anime&type=profile&format=json&resolution=small",
+        "mode": "json",
+        "imageField": "url",
+        "enabled": true,
+        "sfw": true,
+        "note": "动漫头像；2026-09-25 实测可用"
+      },
+      {
+        "id": "paugram-wallpaper",
+        "name": "保罗",
+        "url": "https://api.paugram.com/wallpaper/",
+        "mode": "image",
+        "imageField": "",
+        "enabled": true,
+        "sfw": true,
+        "note": "随机动漫壁纸；2026-09-25 实测可用"
+      },
+      {
+        "id": "suyan-comic",
+        "name": "素颜动漫",
+        "url": "https://api.suyanw.cn/api/comic.php",
+        "mode": "image",
+        "imageField": "",
+        "enabled": true,
+        "sfw": true,
+        "note": "文档旧地址已修正；2026-09-25 实测可用"
+      },
+      {
+        "id": "mwm-mobile",
+        "name": "MWM 移动端",
+        "url": "https://t.mwm.moe/mp",
+        "mode": "image",
+        "imageField": "",
+        "enabled": true,
+        "sfw": true,
+        "note": "WebP 随机图片；2026-09-25 实测可用"
+      },
+      {
+        "id": "loliapi-bg",
+        "name": "LoliAPI",
+        "url": "https://www.loliapi.com/bg/?type=url",
+        "mode": "text",
+        "imageField": "",
+        "enabled": true,
+        "sfw": true,
+        "note": "文档旧路径已修正；2026-09-25 实测可用"
+      }
+    ]
+  },
+  "birthdays": {
+    "enabled": true,
+    "time": "00:00",
+    "notice": "🎂 今天是 {name} 的生日～让我们一起祝TA生日快乐！",
+    "enabledGroups": [],
+    "items": [
+      {
+        "id": "key-0-01-03",
+        "name": "霧島 聖",
+        "date": "01-03",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-1-01-05",
+        "name": "桐生 美也",
+        "date": "01-05",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-2-01-06",
+        "name": "沢渡 真琴",
+        "date": "01-06",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-3-01-06",
+        "name": "白河 ユイナ",
+        "date": "01-06",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-4-01-07",
+        "name": "月宮 あゆ",
+        "date": "01-07",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-5-01-12",
+        "name": "直枝架夜",
+        "date": "01-12",
+        "series": "Kud Wafter",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-6-01-15",
+        "name": "水瀬 いちご",
+        "date": "01-15",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-7-01-17",
+        "name": "直枝 理樹",
+        "date": "01-17",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-8-01-18",
+        "name": "伊吹 公子",
+        "date": "01-18",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-9-01-23",
+        "name": "LUNAR-Q",
+        "date": "01-23",
+        "series": "LUNARiA",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-10-01-26",
+        "name": "ヴリティカ・ バラクリシュナン",
+        "date": "01-26",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-11-01-29",
+        "name": "川澄 舞",
+        "date": "01-29",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-12-02-01",
+        "name": "美坂 栞",
+        "date": "02-01",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-13-02-01",
+        "name": "岡崎 汐",
+        "date": "02-01",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-14-02-02",
+        "name": "野村 美希",
+        "date": "02-02",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-15-02-07",
+        "name": "佐月 マリ",
+        "date": "02-07",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-16-02-09",
+        "name": "三谷 良一",
+        "date": "02-09",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-17-02-14",
+        "name": "東城 つかさ",
+        "date": "02-14",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-18-02-17",
+        "name": "千里 朱音",
+        "date": "02-17",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-19-02-17",
+        "name": "春原 陽平",
+        "date": "02-17",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-20-02-22",
+        "name": "神崎 アーデルハイド",
+        "date": "02-22",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-21-02-24",
+        "name": "町村 玲央奈",
+        "date": "02-24",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-22-02-26",
+        "name": "マリア・デ・ アンジェリス",
+        "date": "02-26",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-23-03-01",
+        "name": "美坂 香里",
+        "date": "03-01",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-24-03-04",
+        "name": "命 吹雪",
+        "date": "03-04",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-25-03-05",
+        "name": "西門 貴明",
+        "date": "03-05",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-26-03-06",
+        "name": "井上 晶",
+        "date": "03-06",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-27-03-13",
+        "name": "来ヶ谷 唯湖",
+        "date": "03-13",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-28-03-18",
+        "name": "柊木 梢",
+        "date": "03-18",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-29-03-21",
+        "name": "小笠原 緋雨",
+        "date": "03-21",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-30-03-25",
+        "name": "有月 椎菜",
+        "date": "03-25",
+        "series": "Kud Wafter",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-31-03-26",
+        "name": "松岡 チロル",
+        "date": "03-26",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-32-03-27",
+        "name": "鳳 咲夜",
+        "date": "03-27",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-33-03-30",
+        "name": "西园美鸟",
+        "date": "03-30",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-34-04-01",
+        "name": "あーちゃん先輩",
+        "date": "04-01",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-35-04-01",
+        "name": "豊後 弥生",
+        "date": "04-01",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-36-04-02",
+        "name": "藤川 みあ",
+        "date": "04-02",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-37-04-03",
+        "name": "相楽 美佐枝",
+        "date": "04-03",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-38-04-04",
+        "name": "久島 鴎",
+        "date": "04-04",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-39-04-05",
+        "name": "神北 小毬",
+        "date": "04-05",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-40-04-08",
+        "name": "ビャッコ",
+        "date": "04-08",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-41-04-13",
+        "name": "柳 美音",
+        "date": "04-13",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-42-04-18",
+        "name": "北川 潤",
+        "date": "04-18",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-43-04-29",
+        "name": "水織 静久",
+        "date": "04-29",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-44-04-30",
+        "name": "宮沢 謙吾",
+        "date": "04-30",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-45-05-01",
+        "name": "岡崎 直幸",
+        "date": "05-01",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-46-05-02",
+        "name": "天王寺 瑚太朗",
+        "date": "05-02",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-47-05-04",
+        "name": "棗 恭介",
+        "date": "05-04",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-48-05-05",
+        "name": "倉田 佐祐理",
+        "date": "05-05",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-49-05-07",
+        "name": "シャルロッタ・ スコポフスカヤ",
+        "date": "05-07",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-50-05-08",
+        "name": "利田 美咲",
+        "date": "05-08",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-51-05-12",
+        "name": "室伏 理沙",
+        "date": "05-12",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-52-05-13",
+        "name": "一ノ瀬 ことみ",
+        "date": "05-13",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-53-05-21",
+        "name": "鷹原 羽依里",
+        "date": "05-21",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-54-05-26",
+        "name": "石井 色葉",
+        "date": "05-26",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-55-06-06",
+        "name": "霧島 譲",
+        "date": "06-06",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-56-06-06",
+        "name": "二階堂 三郷",
+        "date": "06-06",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-57-06-08",
+        "name": "鳴瀬 しろは",
+        "date": "06-08",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-58-06-11",
+        "name": "春原 芽衣",
+        "date": "06-11",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-59-06-12",
+        "name": "霧島 佳乃",
+        "date": "06-12",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-60-06-12",
+        "name": "能美 クドリャフカ",
+        "date": "06-12",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-61-06-13",
+        "name": "しまこ",
+        "date": "06-13",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-62-06-18",
+        "name": "蔵 里見",
+        "date": "06-18",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-63-06-18",
+        "name": "中津 静流",
+        "date": "06-18",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-64-06-24",
+        "name": "茅森 月歌",
+        "date": "06-24",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-65-06-29",
+        "name": "桜庭 星羅",
+        "date": "06-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-66-07-04",
+        "name": "神山 識",
+        "date": "07-04",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-67-07-07",
+        "name": "蒼井 えりか",
+        "date": "07-07",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-68-07-11",
+        "name": "朝倉 可憐",
+        "date": "07-11",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-69-07-12",
+        "name": "西九条 灯花",
+        "date": "07-12",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-70-07-16",
+        "name": "有月 初",
+        "date": "07-16",
+        "series": "Kud Wafter",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-71-07-20",
+        "name": "古河 秋生",
+        "date": "07-20",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-72-07-20",
+        "name": "伊吹 風子",
+        "date": "07-20",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-73-07-21",
+        "name": "平良 明",
+        "date": "07-21",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-74-07-22",
+        "name": "天音 巫呼",
+        "date": "07-22",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-75-07-23",
+        "name": "神尾 観鈴",
+        "date": "07-23",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-76-07-26",
+        "name": "神戸 小鳥",
+        "date": "07-26",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-77-08-02",
+        "name": "キャロル・リーパー",
+        "date": "08-02",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-78-08-07",
+        "name": "宮沢 有紀寧",
+        "date": "08-07",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-79-08-15",
+        "name": "夏目 祈",
+        "date": "08-15",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-80-08-22",
+        "name": "西園 美魚",
+        "date": "08-22",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-81-08-24",
+        "name": "鳳 ちはや",
+        "date": "08-24",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-82-08-25",
+        "name": "山脇・ボン・ イヴァール",
+        "date": "08-25",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-83-08-27",
+        "name": "幸村 俊夫",
+        "date": "08-27",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-84-08-31",
+        "name": "紬 ヴェンダース",
+        "date": "08-31",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-85-09-01",
+        "name": "加藤 うみ",
+        "date": "09-01",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-86-09-02",
+        "name": "棗 鈴",
+        "date": "09-02",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-87-09-06",
+        "name": "水瀬 すもも",
+        "date": "09-06",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-88-09-09",
+        "name": "藤林 杏",
+        "date": "09-09",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-89-09-09",
+        "name": "藤林 椋",
+        "date": "09-09",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-90-09-13",
+        "name": "昼田 貴理子",
+        "date": "09-13",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-91-09-14",
+        "name": "国崎往人",
+        "date": "09-14",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-92-09-17",
+        "name": "和泉 ユキ",
+        "date": "09-17",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-93-09-20",
+        "name": "空門 藍",
+        "date": "09-20",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-94-09-20",
+        "name": "空門 蒼",
+        "date": "09-20",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-95-09-23",
+        "name": "水瀬 秋子",
+        "date": "09-23",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-96-10-01",
+        "name": "丸山 奏多",
+        "date": "10-01",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-97-10-05",
+        "name": "古河 早苗",
+        "date": "10-05",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-98-10-07",
+        "name": "アイリーン・ レドメイン",
+        "date": "10-07",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-99-10-10",
+        "name": "加納 天善",
+        "date": "10-10",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-100-10-13",
+        "name": "二木 佳奈多",
+        "date": "10-13",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-101-10-13",
+        "name": "三枝 葉留佳",
+        "date": "10-13",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-102-10-14",
+        "name": "坂上 智代",
+        "date": "10-14",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-103-10-18",
+        "name": "岬 鏡子",
+        "date": "10-18",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-104-10-21",
+        "name": "伊達 朱里",
+        "date": "10-21",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-105-10-21",
+        "name": "朱鷺戸 沙耶",
+        "date": "10-21",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-106-10-28",
+        "name": "逢川 めぐみ",
+        "date": "10-28",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-107-10-30",
+        "name": "岡崎 朋也",
+        "date": "10-30",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-108-11-01",
+        "name": "國見 タマ",
+        "date": "11-01",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-109-11-02",
+        "name": "瑞原 あいな",
+        "date": "11-02",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-110-11-03",
+        "name": "氷室 憂希",
+        "date": "11-03",
+        "series": "Kud Wafter",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-111-11-03",
+        "name": "神尾 晴子",
+        "date": "11-03",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-112-11-06",
+        "name": "井ノ原 真人",
+        "date": "11-06",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-113-11-07",
+        "name": "吉野 晴彦",
+        "date": "11-07",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-114-11-08",
+        "name": "樋口 聖華",
+        "date": "11-08",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-115-11-22",
+        "name": "黒沢 真希",
+        "date": "11-22",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-116-11-29",
+        "name": "大島 一千子",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-117-11-29",
+        "name": "大島 二以奈",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-118-11-29",
+        "name": "大島 三野里",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-119-11-29",
+        "name": "大島 四ツ葉",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-120-11-29",
+        "name": "大島 五十鈴",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-121-11-29",
+        "name": "大島 六宇亜",
+        "date": "11-29",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-122-12-01",
+        "name": "月城 最中",
+        "date": "12-01",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-123-12-02",
+        "name": "鳴瀬 小鳩",
+        "date": "12-02",
+        "series": "Summer Pockets",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-124-12-03",
+        "name": "笹瀬川 佐々美",
+        "date": "12-03",
+        "series": "Little Busters!",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-125-12-05",
+        "name": "芳野 祐介",
+        "date": "12-05",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-126-12-06",
+        "name": "天野 美汐",
+        "date": "12-06",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-127-12-14",
+        "name": "李映夏",
+        "date": "12-14",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-128-12-15",
+        "name": "神奈 备命",
+        "date": "12-15",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-129-12-22",
+        "name": "遠野 美凪",
+        "date": "12-22",
+        "series": "AIR",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-130-12-23",
+        "name": "此花 ルチア",
+        "date": "12-23",
+        "series": "Rewrite",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-131-12-23",
+        "name": "水瀬 名雪",
+        "date": "12-23",
+        "series": "Kanon",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-132-12-24",
+        "name": "古河 渚",
+        "date": "12-24",
+        "series": "CLANNAD",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-133-12-25",
+        "name": "菅原 千恵",
+        "date": "12-25",
+        "series": "Heaven Burns Red",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-134-12-27",
+        "name": "西森 柚咲",
+        "date": "12-27",
+        "series": "Charlotte",
+        "builtin": true,
+        "groups": []
+      },
+      {
+        "id": "key-135-12-27",
+        "name": "堀井 佐奈",
+        "date": "12-27",
+        "series": "LOOPERS",
+        "builtin": true,
+        "groups": []
+      }
+    ]
+  },
+  "levelTitles": [
+    {
+      "min": 1,
+      "text": "葡家娃娃"
+    },
+    {
+      "min": 11,
+      "text": "葡家在编学生"
+    },
+    {
+      "min": 21,
+      "text": "葡家编外奶爸奶妈"
+    },
+    {
+      "min": 31,
+      "text": "葡家编外辅导员"
+    },
+    {
+      "min": 41,
+      "text": "葡家在编奶爸奶妈"
+    },
+    {
+      "min": 51,
+      "text": "葡家在编辅导员"
+    },
+    {
+      "min": 61,
+      "text": "葡家在编守门人"
+    },
+    {
+      "min": 71,
+      "text": "葡家在编守门百夫长"
+    },
+    {
+      "min": 81,
+      "text": "葡家长老会成员"
+    },
+    {
+      "min": 91,
+      "text": "葡家分站站长"
+    }
+  ],
+  "levelTitlesByGroup": {},
+  "schedule": []
+}

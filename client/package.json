@@ -1,0 +1,17 @@
+{
+  "name": "grapeleafi-qqbot-client",
+  "version": "1.0.0",
+  "description": "GrapeLeafi QQ bot client (OneBot v11 / NapCat reverse WebSocket)",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "ws": "^8.18.3"
+  }
+}

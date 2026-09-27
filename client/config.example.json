@@ -1,0 +1,99 @@
+{
+  "_说明": "这是唯一需要你填的文件。改完保存即可生效，然后重启 start.bat。所有 ****** 都要换成你自己的；带 auto 标记的留空也行，程序会自动生成。",
+  "_哪里填": "本文件（client/config.json）。复制本文件改名为 config.json 即可，或直接双击 install.bat 自动生成。",
+  "gateway": {
+    "host": "127.0.0.1",
+    "port": 8181,
+    "path": "/onebot/v11/ws",
+    "_accessToken": "接入 token。通常留 ****** 或空，程序会自动生成并同步到 NapCat，不用你手动填。",
+    "accessToken": "******"
+  },
+  "bot": {
+    "_nickname": "机器人的自称，会出现在回复里。留空/****** 即可，首次连上协议端时会自动用你登录的 QQ 昵称。",
+    "nickname": "******",
+    "commandPrefix": "/",
+    "_replyGroups": "允许机器人说话的群。留空 [] = 谁都不理，只能私聊。建议留空，用 /开门 单独开。",
+    "replyGroups": [],
+    "_replyPrivate": "私聊策略：all=所有人 | whitelist=只回 adminIds + privateWhitelist 里的人 | off=不理。默认 all，开箱即用。",
+    "replyPrivate": "all",
+    "_adminIds": "主人 QQ 号，可多个。只有 /设置 /修复 这类主人指令需要它，日常聊天/签到/图鉴/扭蛋都不需要，所以默认留空也能正常玩。必须填你**用来跟机器人聊天**的那个号，不能填登录机器人的这个号——机器人会忽略自己发的消息。想收紧私聊就把 replyPrivate 改回 whitelist 并在这里填号。",
+    "adminIds": ["******"],
+    "_privateWhitelist": "允许私聊机器人的 QQ 号",
+    "privateWhitelist": [],
+    "groupReplyGapMs": 3000,
+    "keywordAutoReply": true,
+    "napcat": {
+      "_mode": "登录方式：qr=扫码（默认，最安全）| quick=免扫码快速登录 | password=账号密码（风控风险高，见 README）",
+      "mode": "qr",
+      "_qq": "quick 模式必填：要免扫码登录的那个 QQ 号（该号需至少扫码登录过一次）",
+      "qq": "******",
+      "_password": "password 模式必填：QQ 密码。留空则自动回退到扫码登录",
+      "password": "******",
+      "_webuiPort": "NapCat 自带管理页的端口，用来查登录状态",
+      "webuiPort": 6099,
+      "_webuiToken": "NapCat 管理页的访问 token。留空或填 ****** 即可，启动时自动生成 32 位随机值并同步到 NapCat",
+      "webuiToken": "******",
+      "_riskNote": "账号密码登录会显著提高风控概率：腾讯常要求验证码或新设备验证，且密码泄露等于账号被接管。默认请保持 qr。"
+    },
+    "quietHours": {
+      "enabled": false,
+      "start": "23:30",
+      "end": "06:30",
+      "allowGroups": []
+    },
+    "userRateLimit": {
+      "windowSec": 300,
+      "max": 20
+    },
+    "ai": {
+      "enabled": false,
+      "baseUrl": "https://api.deepseek.com/v1",
+      "_apiKey": "AI key。不开 AI 就留空",
+      "apiKey": "******",
+      "model": "deepseek-chat",
+      "temperature": 0.8,
+      "maxTokens": 600,
+      "timeoutSec": 40,
+      "cooldownSec": 20
+    },
+    "games": {
+      "lotteryCooldownSec": 600,
+      "fishingCooldownSec": 30,
+      "fortunePerDay": true
+    }
+  },
+  "console": {
+    "enabled": true,
+    "_host": "控制台监听地址。改 0.0.0.0 才能用手机访问，但必须同时设 token",
+    "host": "127.0.0.1",
+    "port": 9632,
+    "_token": "控制台密码。留空 = 本机直接打开 http://127.0.0.1:9632 就能用（推荐）。只有把 host 改成 0.0.0.0 想用手机访问时才必须填。",
+    "token": ""
+  },
+  "scheduler": {
+    "enabled": true,
+    "checkEverySec": 20
+  },
+  "antiRisk": {
+    "minDelayMs": 600,
+    "maxDelayMs": 1800,
+    "groupCooldownMs": 3000,
+    "userCooldownMs": 3000,
+    "burstLimit": 20,
+    "burstWindowSec": 60,
+    "hourlyCap": 120,
+    "dailyCap": 500,
+    "groupIdDailyCap": 200,
+    "maxTextLength": 500,
+    "sameTextGapMs": 0,
+    "autoMuteMinutes": 5,
+    "autoMuteFailStreak": 3,
+    "maxQueueLength": 200,
+    "maxQueueWaitMs": 600000,
+    "sendTimeoutMs": 120000,
+    "concurrency": 3,
+    "maxPenalty": 4
+  },
+  "_素材说明": "卡牌等图片素材在项目的 assets/ 目录里分类存放。控制台「抽卡」页填相对路径即可，例如 cards/ab。留空则该功能不可用。素材不随本项目分享。",
+  "_其他信息在哪": "群设置、生日表、关键字配图、权限授予等运行期数据在 client/data/*.json 里，都可以在控制台网页上改，不用手改文件。"
+}
