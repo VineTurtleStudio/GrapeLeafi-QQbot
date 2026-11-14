@@ -797,3 +797,10 @@ weather: {
 ## 免责声明
 
 本项目仅用于学习与技术交流。使用自动化可能违反腾讯《软件许可及服务协议》，请自行评估风险，使用者本人对账号安全及一切后果负责。
+---
+
+## 许可 / License
+
+本项目以 [MIT](./LICENSE) 许可证发布。
+
+Licensed under the [MIT License](./LICENSE).
